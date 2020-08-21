@@ -2,7 +2,6 @@ const CONFIG = require('../../resources/configs/testConfig.json');
 const { v4: uuidv4 } = require('uuid');
 const path = require('path');
 const expect = require('chai').expect;
-
 const pages = require('../../infra/pages/pageManager').init();
 
 describe('Sanity', () => {
