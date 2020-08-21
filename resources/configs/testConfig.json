@@ -1,0 +1,9 @@
+{
+    "retryCount": 3,
+    "fullRunTimeOut": 600000,
+	
+    "testUserEmail": "refaelmah@gmail.com",
+    "testUserPassword": "T+RuL@n2td#SWj7",
+
+    "testImageName" : "sample01.jpg"
+}
