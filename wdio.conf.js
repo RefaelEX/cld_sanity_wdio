@@ -64,7 +64,7 @@ exports.config = {
             args: [
                 '--start-maximized',
                 '--enable-automation',
-                '----no-sandbox',
+                '--no-sandbox',
                 '--disable-infobars'
             ]
         },
