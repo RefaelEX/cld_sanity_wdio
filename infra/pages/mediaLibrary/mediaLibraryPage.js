@@ -66,7 +66,8 @@ class MediaLibraryPage extends Page {
     }
 
     getImageFromGridByName(name) {
-        let imageList = this.getElements(pageSelectors.imageArticle);
+        super.waitForDisplayed(pageSelectors.imageArticle);
+        let imageList = super.getElements(pageSelectors.imageArticle);
 
         for(let i = 0; i < imageList.length; i++) {
             let textElement = super.getChildFromWebElement(imageList[i], pageSelectors.imageNameText);
