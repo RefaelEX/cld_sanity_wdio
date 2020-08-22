@@ -8,7 +8,7 @@ describe('Sanity', () => {
     
     before(() => {
         this.imagePublicId = uuidv4().substring(0, 12);
-        this.imageLocalPath = path.resolve('') + `\\resources\\sampleImages\\${CONFIG.testImageName}`;
+        this.imageLocalPath = path.resolve('') + `/resources/sampleImages/${CONFIG.testImageName}`;
 
         pages.login().goTo();
         pages.login().service().makeLogIn(CONFIG.testUserEmail, CONFIG.testUserPassword);
