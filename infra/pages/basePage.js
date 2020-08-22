@@ -28,6 +28,14 @@ module.exports = class Page {
        element.waitForExist({ timeout : DEAFAULT_TIMEOUT});
    }
 
+    waitForEnabled(selector) {
+        this.waitForEnabledWebElement(browser.$(selector));
+    }
+
+    waitForEnabledWebElement(element) {
+        element.waitForEnabled({ timeout : DEAFAULT_TIMEOUT});
+    }
+
    waitForCondition(condition, timeOut) {
         browser.waitUntil(
             () => condition(),
@@ -105,7 +113,7 @@ module.exports = class Page {
     }
 
     setValueInFileUploadInputWebElement(element, value) {
-        this.waitForExistWebElement(element);
+        this.waitForEnabledWebElement(element);
         element.setValue(value);
     }
 
