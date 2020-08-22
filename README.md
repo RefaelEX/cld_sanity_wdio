@@ -3,7 +3,7 @@
 ### Prerequisites :
   * Nodejs
   * Java
-  * chrome
+  * Chrome
   
 ### installation : 
   * Run `npm install`
