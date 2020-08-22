@@ -5,7 +5,7 @@
   * Java
   * Chrome
   
-### installation : 
+### Installation : 
   * Run `npm install`
 
 ### Run Tests :
