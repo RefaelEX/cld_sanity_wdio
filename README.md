@@ -1,8 +1,5 @@
 ## cld_sanity_wdio
-
-#### Frameworks :
-  * WebdriverIO 
-  * Allure report 
+Automation tests implementation with WebdriverIO and Allure report frameworks using page object pattern .
 
 #### Prerequisites :
   * Nodejs
