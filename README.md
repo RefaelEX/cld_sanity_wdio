@@ -1,15 +1,19 @@
 # cld_sanity_wdio
 
-### Prerequisites :
+#### Framework :
+  * webdriverIO 
+  * Allure report 
+
+#### Prerequisites :
   * Nodejs
   * Java
   * Chrome
   
-### Installation : 
+#### Installation : 
   * Run `npm install`
 
-### Run Tests :
+#### Run Tests :
   * Run `npm run sanity`
 
-### Generate Report :
+#### Generate Report :
   * Run `npm run report`
