@@ -1,6 +1,6 @@
 # cld_sanity_wdio
 
-#### Framework :
+#### Frameworks :
   * webdriverIO 
   * Allure report 
 
